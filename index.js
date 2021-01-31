@@ -68,9 +68,11 @@ function removeFromCart(item) {
   // write your code here
   var itemWithPrice;
   var itemName = [];
-  var price = [];
-  while (itemName !== item) {
-    itemName
+  var i = 0;
+  while (itemName !== item & i < cart.length) {
+    itemWithPrice = cart[i];
+    itemName = Object.values(itemWithPrice)[0];
+    i++;
   }
 }
 
