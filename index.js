@@ -73,9 +73,12 @@ function removeFromCart(item) {
     itemWithPrice = cart[i];
     itemName = Object.values(itemWithPrice)[0];
     if (itemName === item) {
-      cart.splice(1,);
+      cart.splice(1, i, "");
+      i = cart.length;
     }
-    i++;
+    else {
+      i++;
+    }
   }
 }
 
