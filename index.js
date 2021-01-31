@@ -76,10 +76,14 @@ function removeFromCart(item) {
       cart.splice(1, i);
       i = cart.length;
     }
+    else if(i === cart.length-1 & itemName !== item) {
+      return "That item is not in your cart.";
+    }
     else {
       i++;
     }
   }
+  return cart;
 }
 
 function placeOrder(cardNumber) {
