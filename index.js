@@ -69,9 +69,12 @@ function removeFromCart(item) {
   var itemWithPrice;
   var itemName = [];
   var i = 0;
-  while (itemName !== item & i < cart.length) {
+  while (i < cart.length) {
     itemWithPrice = cart[i];
     itemName = Object.values(itemWithPrice)[0];
+    if (itemName === item) {
+      
+    }
     i++;
   }
 }
