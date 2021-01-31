@@ -10,7 +10,6 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- //write your code here
  var itemName = item;
  var price = Math.floor(Math.random()*100) + 1;
  var itemPrice = price;
@@ -52,7 +51,6 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
   var itemWithPrice;
   var price = [];
   var total = 0;
@@ -65,7 +63,6 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
   var itemWithPrice;
   var itemName = [];
   var i = 0;
