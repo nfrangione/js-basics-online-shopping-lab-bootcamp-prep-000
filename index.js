@@ -69,6 +69,9 @@ function removeFromCart(item) {
   var itemWithPrice;
   var itemName = [];
   var price = [];
+  for (let i = 0; i < cart.length; i++) {
+    itemName
+  }
 }
 
 function placeOrder(cardNumber) {
