@@ -67,6 +67,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var itemWithPrice;
+  var itemName = [];
   var price = [];
 }
 
